@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shadowsocks</string>
+    <string name="welcome_message">Secure and fast proxy for your Android device</string>
+    <string name="get_started">Get Started</string>
+    
+    <!-- Quick Settings Tile -->
+    <string name="quick_tile_label">Shadowsocks</string>
+    <string name="quick_tile_connected">Connected</string>
+    <string name="quick_tile_disconnected">Disconnected</string>
+    <string name="quick_tile_connecting">Connecting…</string>
+    <string name="quick_tile_disconnecting">Disconnecting…</string>
+    <string name="quick_tile_error">Error</string>
+    
+    <!-- Profile Management -->
+    <string name="profile_name">Profile Name</string>
+    <string name="server_address">Server Address</string>
+    <string name="server_port">Server Port</string>
+    <string name="password">Password</string>
+    <string name="encryption_method">Encryption Method</string>
+    
+    <!-- Connection Status -->
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting</string>
+    <string name="status_disconnecting">Disconnecting</string>
+    <string name="status_error">Connection Error</string>
+    
+    <!-- Actions -->
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>
