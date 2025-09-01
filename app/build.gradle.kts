@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.application") version "7.4.2"
-    id("org.jetbrains.kotlin.android") version "1.8.20"
+    id("com.android.application") version "8.1.4"
+    id("org.jetbrains.kotlin.android") version "1.9.10"
     id("kotlin-parcelize")
     id("kotlin-kapt")
 }
@@ -42,7 +42,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.4"
+        kotlinCompilerExtensionVersion = "1.5.6"
     }
     packaging {
         resources {
