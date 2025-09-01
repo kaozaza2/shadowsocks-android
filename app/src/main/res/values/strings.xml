@@ -13,11 +13,20 @@
     <string name="quick_tile_error">Error</string>
     
     <!-- Profile Management -->
+    <string name="profiles">Profiles</string>
+    <string name="no_profiles">No profiles configured</string>
+    <string name="tap_add_to_create_profile">Tap + to create your first server profile</string>
     <string name="profile_name">Profile Name</string>
     <string name="server_address">Server Address</string>
     <string name="server_port">Server Port</string>
     <string name="password">Password</string>
     <string name="encryption_method">Encryption Method</string>
+    <string name="last_connected">Last connected: %1$s</string>
+    <string name="connected">Connected</string>
+    <string name="edit">Edit</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="delete">Delete</string>
+    <string name="delete_profile_message">Are you sure you want to delete \'%1$s\'? This action cannot be undone.</string>
     
     <!-- Connection Status -->
     <string name="status_connected">Connected</string>
@@ -34,4 +43,15 @@
     <string name="delete_profile">Delete Profile</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
+    
+    <!-- Statistics -->
+    <string name="connection_statistics">Connection Statistics</string>
+    <string name="current_connection">Current Connection</string>
+    <string name="recent_sessions">Recent Sessions</string>
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="latency">Latency</string>
+    <string name="total_data">Total Data</string>
+    <string name="connection_time">Connection Time</string>
+    <string name="view_details">View Details</string>
 </resources>
