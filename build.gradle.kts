@@ -1,0 +1,1 @@
+// Empty root build file - app module contains all configuration
