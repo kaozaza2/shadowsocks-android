@@ -1,4 +1,4 @@
-package com.shadowsocks.android.service
+package com.mikore.shadowsocks.service
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -11,14 +11,14 @@ import android.os.Build
 import android.os.IBinder
 import android.os.ParcelFileDescriptor
 import androidx.core.app.NotificationCompat
-import com.shadowsocks.android.R
-import com.shadowsocks.android.crypto.ShadowsocksCrypto
-import com.shadowsocks.android.model.ConnectionState
-import com.shadowsocks.android.model.ConnectionStatus
-import com.shadowsocks.android.model.ConnectionStats
-import com.shadowsocks.android.model.ConnectionMonitor
-import com.shadowsocks.android.model.Profile
-import com.shadowsocks.android.ui.MainActivity
+import com.mikore.shadowsocks.R
+import com.mikore.shadowsocks.crypto.ShadowsocksCrypto
+import com.mikore.shadowsocks.model.ConnectionState
+import com.mikore.shadowsocks.model.ConnectionStatus
+import com.mikore.shadowsocks.model.ConnectionStats
+import com.mikore.shadowsocks.model.ConnectionMonitor
+import com.mikore.shadowsocks.model.Profile
+import com.mikore.shadowsocks.ui.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -67,9 +67,9 @@ class ShadowsocksVpnService : VpnService() {
         private const val AUTO_RECONNECT_DELAY = 5000L // 5 seconds
         private const val CONNECTION_TIMEOUT = 10000L // 10 seconds
         
-        const val ACTION_CONNECT = "com.shadowsocks.android.CONNECT"
-        const val ACTION_DISCONNECT = "com.shadowsocks.android.DISCONNECT"
-        const val ACTION_TOGGLE_AUTO_RECONNECT = "com.shadowsocks.android.TOGGLE_AUTO_RECONNECT"
+        const val ACTION_CONNECT = "com.mikore.shadowsocks.CONNECT"
+        const val ACTION_DISCONNECT = "com.mikore.shadowsocks.DISCONNECT"
+        const val ACTION_TOGGLE_AUTO_RECONNECT = "com.mikore.shadowsocks.TOGGLE_AUTO_RECONNECT"
         const val EXTRA_PROFILE = "profile"
         const val EXTRA_AUTO_RECONNECT = "auto_reconnect"
     }

@@ -1,4 +1,4 @@
-package com.shadowsocks.android.ui
+package com.mikore.shadowsocks.ui
 
 import android.net.VpnService
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.shadowsocks.android.ui.theme.ShadowsocksAndroidTheme
+import com.mikore.shadowsocks.ui.theme.ShadowsocksAndroidTheme
 
 class MainActivity : ComponentActivity() {
     

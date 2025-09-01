@@ -1,8 +1,8 @@
-package com.shadowsocks.android.database
+package com.mikore.shadowsocks.database
 
 import androidx.room.*
 import androidx.lifecycle.LiveData
-import com.shadowsocks.android.model.ConnectionStats
+import com.mikore.shadowsocks.model.ConnectionStats
 import kotlinx.coroutines.flow.Flow
 
 @Dao

@@ -1,4 +1,4 @@
-package com.shadowsocks.android.ui
+package com.mikore.shadowsocks.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -16,12 +16,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.shadowsocks.android.R
-import com.shadowsocks.android.model.ConnectionMonitor
-import com.shadowsocks.android.model.ConnectionState
-import com.shadowsocks.android.model.ConnectionStatus
-import com.shadowsocks.android.model.Profile
-import com.shadowsocks.android.ui.theme.ShadowsocksAndroidTheme
+import com.mikore.shadowsocks.R
+import com.mikore.shadowsocks.model.ConnectionMonitor
+import com.mikore.shadowsocks.model.ConnectionState
+import com.mikore.shadowsocks.model.ConnectionStatus
+import com.mikore.shadowsocks.model.Profile
+import com.mikore.shadowsocks.ui.theme.ShadowsocksAndroidTheme
 
 @Composable
 fun MainScreen(

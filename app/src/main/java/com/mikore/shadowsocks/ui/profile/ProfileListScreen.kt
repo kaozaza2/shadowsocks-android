@@ -1,4 +1,4 @@
-package com.shadowsocks.android.ui.profile
+package com.mikore.shadowsocks.ui.profile
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -14,10 +14,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.shadowsocks.android.R
-import com.shadowsocks.android.crypto.ShadowsocksCrypto
-import com.shadowsocks.android.model.Profile
-import com.shadowsocks.android.ui.theme.ShadowsocksAndroidTheme
+import com.mikore.shadowsocks.R
+import com.mikore.shadowsocks.crypto.ShadowsocksCrypto
+import com.mikore.shadowsocks.model.Profile
+import com.mikore.shadowsocks.ui.theme.ShadowsocksAndroidTheme
 import java.text.SimpleDateFormat
 import java.util.*
 

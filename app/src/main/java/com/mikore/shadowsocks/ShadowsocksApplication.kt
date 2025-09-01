@@ -1,8 +1,8 @@
-package com.shadowsocks.android
+package com.mikore.shadowsocks
 
 import android.app.Application
 import androidx.room.Room
-import com.shadowsocks.android.database.ShadowsocksDatabase
+import com.mikore.shadowsocks.database.ShadowsocksDatabase
 
 class ShadowsocksApplication : Application() {
     

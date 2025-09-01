@@ -1,4 +1,4 @@
-package com.shadowsocks.android.ui.theme
+package com.mikore.shadowsocks.ui.theme
 
 import android.app.Activity
 import android.os.Build

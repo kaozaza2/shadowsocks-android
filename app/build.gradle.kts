@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.shadowsocks.android"
+    namespace = "com.mikore.shadowsocks"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.shadowsocks.android"
+        applicationId = "com.mikore.shadowsocks"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

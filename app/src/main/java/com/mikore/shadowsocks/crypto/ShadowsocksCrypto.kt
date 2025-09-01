@@ -1,4 +1,4 @@
-package com.shadowsocks.android.crypto
+package com.mikore.shadowsocks.crypto
 
 import org.bouncycastle.crypto.engines.AESEngine
 import org.bouncycastle.crypto.engines.ChaCha7539Engine

@@ -1,4 +1,4 @@
-package com.shadowsocks.android.model
+package com.mikore.shadowsocks.model
 
 import android.os.Parcelable
 import androidx.room.Entity

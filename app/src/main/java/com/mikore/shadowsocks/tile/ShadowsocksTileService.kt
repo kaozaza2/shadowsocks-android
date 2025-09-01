@@ -1,4 +1,4 @@
-package com.shadowsocks.android.tile
+package com.mikore.shadowsocks.tile
 
 import android.content.ComponentName
 import android.content.Intent
@@ -10,11 +10,11 @@ import android.os.IBinder
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import androidx.annotation.RequiresApi
-import com.shadowsocks.android.R
-import com.shadowsocks.android.model.ConnectionState
-import com.shadowsocks.android.model.Profile
-import com.shadowsocks.android.service.ShadowsocksVpnService
-import com.shadowsocks.android.ui.MainActivity
+import com.mikore.shadowsocks.R
+import com.mikore.shadowsocks.model.ConnectionState
+import com.mikore.shadowsocks.model.Profile
+import com.mikore.shadowsocks.service.ShadowsocksVpnService
+import com.mikore.shadowsocks.ui.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

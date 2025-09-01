@@ -1,4 +1,4 @@
-package com.shadowsocks.android.ui.stats
+package com.mikore.shadowsocks.ui.stats
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -13,11 +13,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.shadowsocks.android.model.ConnectionMonitor
-import com.shadowsocks.android.model.ConnectionStats
-import com.shadowsocks.android.model.NetworkQuality
-import com.shadowsocks.android.model.Profile
-import com.shadowsocks.android.ui.theme.ShadowsocksAndroidTheme
+import com.mikore.shadowsocks.model.ConnectionMonitor
+import com.mikore.shadowsocks.model.ConnectionStats
+import com.mikore.shadowsocks.model.NetworkQuality
+import com.mikore.shadowsocks.model.Profile
+import com.mikore.shadowsocks.ui.theme.ShadowsocksAndroidTheme
 import java.text.SimpleDateFormat
 import java.util.*
 

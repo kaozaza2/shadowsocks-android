@@ -1,4 +1,4 @@
-package com.shadowsocks.android.ui.theme
+package com.mikore.shadowsocks.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
